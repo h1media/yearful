@@ -1,0 +1,209 @@
+  @include tablet() {
+
+  	.site-header {
+  		.col-md-2 {
+  			width: 100%;
+  		}
+  		.col-md-10 {
+  			width: 100%;
+  		}
+  		.container {
+			max-width:100%!important;
+			padding: 0!important;
+			.custom-logo-link {
+				padding-left:15px!important;
+			}
+		  	#nav-icon1 {
+		  		position: absolute;
+		  		right: 0;
+		  		top: 28px;
+		  		display: block!important;
+		  		right: 15px;
+		  	}
+
+			.responsive-menu {
+				display: none!important;
+				.menu-main-menu-container {
+					width: 100%;
+					background: white;
+					ul  {
+						width: 100%;
+					}
+					li {
+						width: 100%;
+					}
+					a {
+						width: 100%;
+						padding: 15px 0!important;
+						text-align: center;
+					}
+				}
+				.buttons-wrapper {
+					width: 100%;
+					background: white;
+					ul {
+						display: table!important;
+						margin: 0 auto!important;
+						a {
+							margin: 20px 5px!important;
+						}
+					}
+				}
+			}
+  		}
+  	}
+
+	.slogan {
+		padding: 40px 0!important;
+		h1 {
+			font-size: rem(60)!important;
+			line-height: rem(60)!important;
+		}
+		h4 {
+			font-size: rem(25)!important;
+			line-height: rem(40)!important;
+		}
+		a {
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+	}
+
+	#why, #how, #pricing, #features {
+		h3 {
+			font-size: rem(36)!important;
+			line-height: rem(36)!important;
+		}
+		.image-round {
+			width: 80%;
+			height: auto;
+		}
+	}
+
+	#pricing {
+		p {
+			width:100%!important;
+		}
+		img {
+			margin-top: -100px!important;
+		}
+	}
+
+	#features {
+		h3 {
+			margin-top: 20px!important;
+		}
+	}
+
+ 	#testimonials {
+		background:#9c9c9e!important;
+		.testimonial-description {
+			h4 {
+				min-height: 100px!important;
+			}
+			p {
+				padding: 0!important;
+				min-height: 250px!important;
+			}
+		}
+		.owl-stage-outer {
+			bottom: -35px;
+		}
+		.testimonial-image {
+			display: block;
+			img {
+				display: inline;
+			}
+		}
+		.owl-dots {
+			position: relative!important;
+			left:0!important;
+			text-align: center;
+		}
+	}
+
+	.wpcf7 {
+		input[type="email"], input[type="text"], textarea {
+			width:90%!important;
+		}
+	}
+    
+  }
+
+  @include sm() {
+
+	.slogan, #why, #how, #pricing {
+		text-align: center;
+	}
+
+	.slogan {
+		padding: 40px 0!important;
+		h1 {
+			font-size: rem(50)!important;
+			line-height: rem(50)!important;
+		}
+		h4 {
+			font-size: rem(20)!important;
+			line-height: rem(35)!important;
+		}
+		a {
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+		img {
+			padding-bottom: 50px;
+		}
+	}
+
+	#why {
+		top:-50px!important;
+	}
+
+	#pricing {
+		background-size: cover!important;
+		img {
+			margin-top: 10px!important;
+		}
+		p {
+			width: 100%!important;
+		}
+	}
+
+	#features {
+		.tab {
+			width:calc(100% - 40px)!important;
+			margin-bottom: 30px!important;
+		}
+		.features-cta {
+			margin-top: 0!important;
+		}
+	}
+	.separator {
+			margin: 0 auto;
+	}
+
+	footer {
+		p {
+			text-align: center;
+		}
+		li {
+			padding: 0!important;
+			width: 100%;
+			text-align: center;
+			border-right: none!important;
+		}
+	}
+  }
+
+  @include phone() {
+
+		.responsive-menu {
+			.buttons-wrapper {
+				a {
+					margin: 15px 3px!important;
+					width:110px!important;
+				}
+			}
+		}
+    
+  }
